@@ -74,7 +74,7 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.5)
     crass (1.0.4)
-    equatable (0.6.0)
+    equatable (0.6.1)
     erubi (1.8.0)
     execjs (2.7.0)
     faker (1.9.4)
