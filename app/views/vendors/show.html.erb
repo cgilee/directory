@@ -33,4 +33,11 @@
 <%= link_to 'Edit', edit_vendor_path(@vendor) %> |
 <%= link_to 'Back', vendors_path %>
 
-<%= render @vendor.comments %>
+<% @vendor.comments.each do |comment| %>
+  <p>
+    <strong>
+    <%= comment.like %> |
+    "<%= comment.content %>"
+    </strong>
+  </p>
+<% end if false %>

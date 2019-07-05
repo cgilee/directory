@@ -2,6 +2,8 @@
 
 <h1>Comments</h1>
 
+<%= link_to 'Back to Vendors', :vendors %>
+
 <table>
   <thead>
     <tr>
@@ -18,9 +20,6 @@
         <td><%= comment.like %></td>
         <td><%= comment.content %></td>
         <td><%= comment.vendor_id %></td>
-        <td><%= link_to 'Show', comment %></td>
-        <td><%= link_to 'Edit', edit_comment_path(comment) %></td>
-        <td><%= link_to 'Destroy', comment, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
